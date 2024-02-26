@@ -1,25 +1,37 @@
-Getting Started
+### Backend (Spring-Boot)
 
-Prerequisites
+### Prérequis
 
-Before you begin, make sure you have the following installed on your machine:
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
 
-Node.js
-npm
-XAMPP
+### Installation et Configuration
 
+1. Clonez le dépôt.
+   ```bash
+   git clone https://github.com/malekgr/ARTHUB_PROJECT.git
+   cd ARTHUB_PROJECT
+   ```
+   Ouvrez le projet dans IntelliJ IDEA.
 
-Installation
+File -> Open -> Sélectionnez le dossier du projet.
+Configurez le JDK dans IntelliJ.
 
-Clone the repository:
+File -> Project Structure -> Project -> Project SDK -> Sélectionnez votre JDK.
+Exécutez l'application.
 
-git clone [link to github repo]
+Trouvez la classe principale (par exemple, Application.java) et exécutez-la.
+Le backend devrait maintenant être accessible à l'adresse http://localhost:8089.
 
-cd ArtHub
+### Frontend (Angular)
 
-Clone the repository:
+1. Prérequis
+   Node.js
+   Angular CLI
 
+cd chemin/vers/mon-projet/frontend
 npm install
+ng serve
 
-Database :
-go to phpmyadmin, create your profile if do not exist, create a new database named " arthub-backend "
+Le frontend devrait être accessible à l'adresse http://localhost:4200.
+
