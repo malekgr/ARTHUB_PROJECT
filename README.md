@@ -29,9 +29,12 @@ Le backend devrait maintenant être accessible à l'adresse http://localhost:808
    Node.js
    Angular CLI
 
-cd chemin/vers/mon-projet/frontend
-npm install
-ng serve
+
+   ```bash
+   cd chemin/vers/mon-projet/frontend
+   npm install
+   ng serve
+   ```
 
 Le frontend devrait être accessible à l'adresse http://localhost:4200.
 
