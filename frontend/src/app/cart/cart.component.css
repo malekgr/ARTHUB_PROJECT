@@ -1,0 +1,43 @@
+:host {
+    display: block;
+    margin: 20px;
+  }
+  
+  /* Style for individual cart items */
+  .cart-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for buttons in the cart */
+  button {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the dropdown cart button */
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    border: 1px solid #6c757d;
+  }
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+    color: #fff;
+  }
+  
+  /* Style for the dropdown cart */
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

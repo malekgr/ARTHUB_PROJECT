@@ -1,0 +1,49 @@
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Sign Up</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <form class="px-4">
+        <div class="mb-3">
+          <label for="exampleDropdownFormEmail1" class="form-label">Name</label>
+          <input type="string" class="form-control" id="exampleDropdownFormname" placeholder="Name">
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+          <label class="form-check-label" for="flexRadioDefault2">
+            Space Owner
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" >
+          <label class="form-check-label" for="flexRadioDefault3">
+            Artist
+          </label>
+        </div>
+        <div class="form-check  mb-3">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+          <label class="form-check-label" for="flexRadioDefault1">
+            Visitor
+          </label>
+        </div>
+        <div class="mb-3">
+          <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+            <label class="form-check-label" for="dropdownCheck">
+              Remember me
+            </label>
+          </div>
+        </div>
+        <button routerLink="/home" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" type="submit" class="btn btn-primary">Sign Up</button>
+      </form>
+  </div>

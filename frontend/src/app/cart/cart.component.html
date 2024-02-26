@@ -1,0 +1,11 @@
+<!-- cart-dropdown.component.html -->
+      <div *ngFor="let item of cartItems; let i = index" class="cart-item">
+        {{ item.name }} - Quantity: {{ item.quantity }} - Price: {{ item.price * item.quantity | currency }}
+        <button (click)="increaseQuantity(i)">+</button>
+        <button (click)="decreaseQuantity(i)">-</button>
+        <button (click)="removeItem(i)">Remove</button>
+      </div>
+      <button (click)="confirmOrder()">Confirm Order</button>
+      <button (click)="clearCart()">Clear Cart</button>
+
+  
